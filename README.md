@@ -12,7 +12,7 @@ Es una compania basada en la seguridad mediante camaras de vigilancia y oras tec
 #### gradientes
 * magenta - #CF46A4
 * Blue - #4C68EF
-* Purple - #8E27F2
+* Purple - 
 
 ## Fonts
 https://fonts.google.com/specimen/Poppins?query=popp

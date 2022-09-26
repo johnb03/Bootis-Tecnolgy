@@ -1,0 +1,217 @@
+/* @link https://utopia.fyi/type/calculator?c=320,21,1.2,1140,24,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+
+/* typografia - medidas */
+:root {
+  --step--2: clamp(0.91rem, calc(0.89rem + 0.10vw), 0.96rem);
+  --step--1: clamp(1.09rem, calc(1.05rem + 0.21vw), 1.20rem);
+  --step-0: clamp(1.31rem, calc(1.24rem + 0.37vw), 1.50rem);
+  --step-1: clamp(1.58rem, calc(1.46rem + 0.59vw), 1.88rem);
+  --step-2: clamp(1.89rem, calc(1.71rem + 0.89vw), 2.34rem);
+  --step-3: clamp(2.27rem, calc(2.01rem + 1.29vw), 2.93rem);
+  --step-4: clamp(2.72rem, calc(2.36rem + 1.83vw), 3.66rem);
+  --step-5: clamp(3.27rem, calc(2.75rem + 2.56vw), 4.58rem);
+}
+
+
+.col-1 {
+    width: 8.333333333333333%;
+  }
+  .col-2 {
+    width: 16.66666666666667%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33333333333333%;
+  }
+  .col-5 {
+    width: 41.66666666666667%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33333333333333%;
+  }
+  .col-8 {
+    width: 66.66666666666667%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33333333333333%;
+  }
+  .col-11 {
+    width: 91.66666666666667%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  
+  /* -------------------- */
+
+  /* medidas 480 -- 30em
+          991 --  48em
+          1199 -- 62em
+          1280 -- 75em */
+
+  @media screen and (min-width: 30em) {  
+    .col-sm-1 {
+      width: 8.333333333333333%;
+    }
+    .col-sm-2 {
+      width: 16.66666666666667%;
+    }
+    .col-sm-3 {
+      width: 25%;
+    }
+    .col-sm-4 {
+      width: 33.33333333333333%;
+    }
+    .col-sm-5 {
+      width: 41.66666666666667%;
+    }
+    .col-sm-6 {
+      width: 50%;
+    }
+    .col-sm-7 {
+      width: 58.33333333333333%;
+    }
+    .col-sm-8 {
+      width: 66.66666666666667%;
+    }
+    .col-sm-9 {
+      width: 75%;
+    }
+    .col-sm-10 {
+      width: 83.33333333333333%;
+    }
+    .col-sm-11 {
+      width: 91.66666666666667%;
+    }
+    .col-sm-12 {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 48em) {
+    .col-md-1 {
+      width: 8.333333333333333%;
+    }
+    .col-md-2 {
+      width: 16.66666666666667%;
+    }
+    .col-md-3 {
+      width: 25%;
+    }
+    .col-md-4 {
+      width: 33.33333333333333%;
+    }
+    .col-md-5 {
+      width: 41.66666666666667%;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-7 {
+      width: 58.33333333333333%;
+    }
+    .col-md-8 {
+      width: 66.66666666666667%;
+    }
+    .col-md-9 {
+      width: 75%;
+    }
+    .col-md-10 {
+      width: 83.33333333333333%;
+    }
+    .col-md-11 {
+      width: 91.66666666666667%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 62em) {
+    .col-l-1 {
+      width: 8.333333333333333%;
+    }
+    .col-l-2 {
+      width: 16.66666666666667%;
+    }
+    .col-l-3 {
+      width: 25%;
+    }
+    .col-l-4 {
+      width: 33.33333333333333%;
+    }
+    .col-l-5 {
+      width: 41.66666666666667%;
+    }
+    .col-l-6 {
+      width: 50%;
+    }
+    .col-l-7 {
+      width: 58.33333333333333%;
+    }
+    .col-l-8 {
+      width: 66.66666666666667%;
+    }
+    .col-l-9 {
+      width: 75%;
+    }
+    .col-l-10 {
+      width: 83.33333333333333%;
+    }
+    .col-l-11 {
+      width: 91.66666666666667%;
+    }
+    .col-l-12 {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 75em) {
+    .col-xl-1 {
+      width: 8.333333333333333%;
+    }
+    .col-xl-2 {
+      width: 16.66666666666667%;
+    }
+    .col-xl-3 {
+      width: 25%;
+    }
+    .col-xl-4 {
+      width: 33.33333333333333%;
+    }
+    .col-xl-5 {
+      width: 41.66666666666667%;
+    }
+    .col-xl-6 {
+      width: 50%;
+    }
+    .col-xl-7 {
+      width: 58.33333333333333%;
+    }
+    .col-xl-8 {
+      width: 66.66666666666667%;
+    }
+    .col-xl-9 {
+      width: 75%;
+    }
+    .col-xl-10 {
+      width: 83.33333333333333%;
+    }
+    .col-xl-11 {
+      width: 91.66666666666667%;
+    }
+    .col-xl-12 {
+      width: 100%;
+    }
+  }
+  
+  /* col-sm-1 col-md-6 col-l-8 col-xl-12 */
+ 

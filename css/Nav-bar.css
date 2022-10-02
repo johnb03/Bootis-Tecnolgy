@@ -4,8 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
-  top: 0;
+ 
 
   z-index: 20;
 }
@@ -63,6 +62,11 @@ li:hover {
     color: #f8f9fa;
     letter-spacing: 1.3px;
     text-transform: uppercase;
+  }
+
+  .nav-main{
+    position: sticky;
+    top: 0;
   }
 
   .nav-menu {

@@ -3,6 +3,10 @@ Es una compania basada en la seguridad mediante camaras de vigilancia y oras tec
 
 ## Proyecto
  Es una landing page para crear caracter digital a la empresa.
+ 
+ ![Bootis-tecnology desktop](/Desing/Desktop-bootis.png)
+ ![Bootis-tecnology mobile](/Desing/Movil-bootis.png)
+
 
 ### Colores
 

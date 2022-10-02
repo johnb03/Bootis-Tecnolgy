@@ -20,132 +20,152 @@
 
             <button class="ham"><img src="/Asset/Ham.svg" aria-label="Abrir menu" alt="ham"></button>
             <div class="nav-menu ">
-                <a class="link " href="#">Productos</a>
-                <a class="link " href="#">Acerca de</a>
-                <a class="link " href="#">Contacto</a>
+                <a class="link " href="#main-section">Productos</a>
+                <a class="link " href="#section-clients">Acerca de</a>
+                <a class="link " href="#about">Contacto</a>
             </div>
         </nav>
     </header>
 
     <section id="hero-section">
-        <div class="hero-container">
-            <article class="hero-left col-1 col-s-1 col-md-6 col-l-8 col-xl-12">
-                <picture>
-                    <img src="/Asset/avatar-hero-mobile.png" alt="avatar-hero"
-                        srcset="/Asset/avatar-hero-mobile.png 1x, /Asset/avatar-hero-desk.png 2x" class="hero-img">
-                    <article class="hero-right">
-                        <h1>Asegura Tu Negocion con B<span class="o-blue">OO</span>TIS Tecnology</h1>
-                        <button class="cta">saber mas</button>
-                        <div class="hero-icon">
-                            <img class="arrow" src="/Asset/arrow.svg" alt="">
-                            <p class="arrow-drop">Drop Down</p>
-                        </div>
-                    </article>
-                </picture>
-            </article>
-        </div>
+        <article class="hero col-s-1 col-md-6 col-l-8 col-xl-12">
+            <div class="hero-container">
+                <div class="hero-image__avatar">
+                    <picture class="hero-img__picture">
+                        <source media="(max-width:1024px )" srcset="/Asset/avatar-hero-mobile.png">
+                        <source media="(min-width:1024px )" srcset="/Asset/Hero-avatar-desk.png">
+                        <img class="hero-img" src="/Asset/avatar-hero-mobile.png" alt="avatar-hero" />
+
+                    </picture>
+                </div>
+                <div class="hero-right">
+                    <h1 class="hero-title">Asegura Tu Negocio con B<spam class="o-blue">OO</spam>TIS Tecnology</h1>
+                    <button class="cta cta-hero">saber mas</button>
+                    <div class="hero-icon">
+                        <img class="arrow animation-down" src="/Asset/arrow.svg" alt="arrow">
+                    </div>
+                    <p class="arrow-drop">Drop Down</p>
+                </div>
+            </div>
+
+        </article>
     </section>
     <section id="main-section">
-        <article class=" col-1 col-s-1 col-md-6 col-l-8 col-xl-12 ">
+        <article class=" service  col-s-1 col-md-10 col-l-8 col-xl-12 ">
             <div class="service-titles">
-                <h2 class="service-title">Bootis Tecnology</h2>
-                <p class="service-copy">Está estructurado en sistemas de seguridad basados en tecnología y servicios de
+                <h2 class="service-title">B<spam class="o-blue">oo</spam>tis Tecnology</h2>
+                <p class="service-copy">Está estructurado en sistemas de seguridad basados en tecnología y servicios
+                    de
                     última generación para proteger edificios, coches y locales y más…</p>
             </div>
         </article>
-        <article class="services col-1 col-s-1 col-md-6 col-l-8 col-xl-12 ">
+        <article class="services  col-s-1 col-md-6 col-l-8 col-xl-10 ">
             <div class="card-service">
-                <img src="/Asset/Camera.svg" alt="camera-image" class="card-img">
-                <h3 class="card-title">Camara De seguridad</h3>
-                <p class="card-copy">Lorem ipsum dolor sit amet.</p>
+                <picture><img src="/Asset/Camera.svg" alt="camera-image" class="card-img"></picture>
+                <div class="card-header">
+                    <h3 class="card-title">Camara De seguridad</h3>
+                    <p class="card-copy">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
             </div>
-
             <div class="card-service">
-                <img src="/Asset/Alarm.svg" alt="alarm-image" class="card-img">
+                <picture>
+                    <img src="/Asset/Alarm.svg" alt="alarm-image" class="card-img">
+                </picture>
                 <h3 class="card-title">Alarmas Inteligentes</h3>
-                <p class="card-copy">Lorem ipsum dolor sit amet.</p>
+                <p class="card-copy">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
-
             <div class="card-service">
-                <img src="/Asset/Control-acces-icon.svg" alt="control-acces-image" class="card-img">
+                <picture><img src="/Asset/Control-acces-icon.svg" alt="control-acces-image" class="card-img"></picture>
                 <h3 class="card-title">Control de Acceso</h3>
-                <p class="card-copy">Lorem ipsum dolor sit amet.</p>
+                <p class="card-copy">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-
             <div class="card-service">
-                <img src="/Asset/Intercom - icon.svg" alt="intercom-image" class="card-img">
+                <picture>
+                    <img src="/Asset/Intercom - icon.svg" alt="intercom-image" class="card-img">
+                </picture>
                 <h3 class="card-title">Intercom</h3>
-                <p class="card-copy">Lorem ipsum dolor sit amet.</p>
+                <p class="card-copy">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
             </div>
-
-            <div class="card-service">
-                <img src="/Asset/auto-door-icon.svg" alt="auto door-image" class="card-img">
+            <div class="card-service card-service__5">
+                <picture><img src="/Asset/auto-door-icon.svg" alt="auto door-image" class="card-img "></picture>
                 <h3 class="card-title">Puertas de seguridad</h3>
-                <p class="card-copy">Lorem ipsum dolor sit amet.</p>
+                <p class="card-copy">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
         </article>
     </section>
 
     <section id="section-clients">
-        <article class="clients col-1 col-s-1 col-md-6 col-l-8 col-xl-12 ">
-            <div class="client-paraph">
-                <h2 class="client-title">Clientes Seguros</h2>
-                <p class="client-copy">Con nosotros</p>
-                <button class="cta">Saber mas</button>
-            </div>
-
-            <div class="client-avatars">
-                <div class="card-avatar">
-                    <img src="/Asset/Cliente-avatar-1.png" alt="avatar" class="avatar-client">
-                    <p class="copy-client">Lorem ipsum dolor sit amet.</p>
+        <article class=" col-s-1 col-md-6 col-l-8 col-xl-12 ">
+            <div class="clients">
+                <div class="client-paraph">
+                    <h2 class="client-title">Clientes Seguros</h2>
+                    <p class="client-copy">Con nosotros</p>
+                    <button class="cta">Saber mas!</button>
                 </div>
-                <div class="card-avatar">
-                    <img src="/Asset/Cliente -avatar-2.png" alt="avatar" class="avatar-client">
-                    <p class="copy-client">Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="card-avatar">
-                    <img src="/Asset/Cliente-avatar -3.png" alt="avatar" class="avatar-client">
-                    <p class="copy-client">Lorem ipsum dolor sit amet.</p>
+                <div class="client-avatars">
+                    <div class="card-avatar bg-avatar-1 card-avatar__1">
+                        <picture><img src="/Asset/Cliente-avatar-1.png" alt="avatar" class="avatar-client"></picture>
+                        <p class="copy-client">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit a facere
+                            culpa.</p>
+                    </div>
+                    <div class="card-avatar bg-avatar-2 card-avatar__2">
+                        <picture><img src="/Asset/Cliente -avatar-2.png" alt="avatar" class="avatar-client"></picture>
+                        <p class="copy-client">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit a facere
+                            culpa.</p>
+                    </div>
+                    <div class="card-avatar bg-avatar-3">
+                        <picture><img src="/Asset/Cliente-avatar -3.png" alt="avatar" class="avatar-client"></picture>
+                        <p class="copy-client">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit a facere
+                            culpa</p>
+                    </div>
                 </div>
             </div>
         </article>
     </section>
     <sction id="about">
-        <article class="abaot-us col-1 col-s-1 col-md-6 col-l-8 col-xl-12">
-            <picture><img src="/Asset/about-avatar-mobile.png"
-                    srcset="/Asset/about-avatar-mobile.png 1x, /Asset/about-avatar-desk.png 2x" alt="avatar"
-                    class="abaot-avatar"></picture>
+        <article class="about-us  col-s-1 col-md-6 col-l-8 col-xl-12">
+            <div class="about-us__top">
+                <div class="about-card__title">
+                    <h2 class="about-title">Conocerás las nuevas ideas de seguridad para tu negocio.</h2>
+                    <p class="about-sub-title"> Además de detectar, intervenir y contar con una serie de distintas
+                        funciones
+                        sobre cámaras, y tecnologías, nos dedicamos a desarrollar campañas efectivas para cuidar el
+                        patrimonio que forma este importante centro comercial.</p>
+                    <button class="cta">Saber mas</button>
+                </div>
 
-            <div class="about-card__title">
-                <h2 class="abaot-title">Conocerás las nuevas ideas de seguridad para tu negocio.</h2>
-                <p class="about-sub-title"> Además de detectar, intervenir y contar con una serie de distintas funciones
-                    sobre cámaras, y tecnologías, nos dedicamos a desarrollar campañas efectivas para cuidar el
-                    patrimonio que forma este importante centro comercial.</p>
-                <button class="cta">Saber mas</button>
+                <picture><img src="/Asset/about-avatar-mobile.png"
+                        srcset="/Asset/about-avatar-mobile.png 1x, /Asset/about-avatar-desk.png 2x" alt="avatar"
+                        class="about-avatar">
+                </picture>
             </div>
 
             <div class="about-cta__box">
-                <h2 class="cta__title">Consulta con nosotros y permitenos brindarte el apoyo que necesitas.</h2>
-                <boton class="cta-2">scribenos!</boton>
-                <picture><img src="/Asset/avatar-cta.png" alt="avatar" ></picture>
+                <div class="about-cta__copy">
+                    <h2 class="cta__title">Consulta con nosotros y permitenos brindarte el apoyo que necesitas.</h2>
+                    <button type="button" class="cta-2"><img src="/Asset/whatsapp-icon.svg" alt="whatsapp-icon">
+                        Escribenos!</button>
+                </div>
+                <picture><img class="avatar-cta" src="/Asset/avatar-cta.png" alt="avatar"></picture>
             </div>
 
         </article>
     </sction>
     <section id="main-footer">
-     <article class="footer">
-        <div class="footer-copy">
-            <h4 class="copywrite">
-                Todos los derechos reservados
-            </h4>
-                <img src="/Asset/Copywrite.svg" alt="copywrite-img">
-        </div>
-
-        <div class="footer-redes">
-            <img src="/Asset/Instagram.svg" alt="instagram">
-            <img src="/Asset/linkedin.svg" alt="linkedin">
-        </div>
-     </article>
+        <article class="footer  col-s-1 col-md-6 col-l-8 col-xl-12">
+            <div class="footer-container">
+                <div class="footer-copy">
+                    <h4 class="copywrite">
+                        Todos los derechos reservados
+                    </h4>
+                    <img src="/Asset/Copywrite.svg" alt="copywrite-img">
+                </div>
+                <div class="footer-redes">
+                    <img src="/Asset/Instagram.svg" alt="instagram">
+                    <img src="/Asset/linkedin.svg" alt="linkedin">
+                </div>
+            </div>
+        </article>
     </section>
 
 

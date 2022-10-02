@@ -12,7 +12,7 @@ Es una compania basada en la seguridad mediante camaras de vigilancia y oras tec
 #### gradientes
 * magenta - #CF46A4
 * Blue - #4C68EF
-* Purple - 
+* Purple - #8E27F2
 
 ### tipografia
  #0E4B87
